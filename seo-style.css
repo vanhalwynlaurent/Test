@@ -1,0 +1,31 @@
+main{
+  position: relative;
+height:750px;
+width: 750px;
+border: 1px solid black;
+
+}
+
+.box{
+background-color:lightskyblue;
+border:1px dashed lightgrey;
+margin: 20px;
+
+}
+#box1 {
+display:block;
+width:50%;
+margin: 20px auto;}
+
+#box2{
+
+position: absolute;
+top:50%;
+transform:translate(-50px -50px);
+}
+
+#box3{
+position:absolute;
+left:50%;
+transform:translate(-50%, -50%)
+}
